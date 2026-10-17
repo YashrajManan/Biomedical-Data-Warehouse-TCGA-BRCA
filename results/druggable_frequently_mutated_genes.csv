@@ -1,0 +1,47 @@
+gene_Symbol,mutated_sample_count,mutation_rank,drug_name,mechanism_of_action,max_clinical_stage
+PIK3CA,347,1,AZD-6482,PI3-kinase class I inhibitor,UNKNOWN
+PIK3CA,347,1,ALPELISIB,PI3-kinase p110-alpha subunit inhibitor,PHASE_4
+PIK3CA,347,1,GEDATOLISIB,Serine/threonine-protein kinase mTOR inhibitor,PHASE_3
+TP53,347,1,NAVTEMADLIN,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,PHASE_3
+PIK3CA,347,1,TASELISIB,PI3-kinase class I inhibitor,PHASE_3
+TP53,347,1,TEPRASIRAN,p53 mRNA RNAi inhibitor,PHASE_3
+PIK3CA,347,1,BUPARLISIB,PI3-kinase class I inhibitor,PHASE_3
+TP53,347,1,CONTUSUGENE LADENOVEC,Cellular tumor antigen p53 exogenous gene,PHASE_3
+TP53,347,1,IDASANUTLIN,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,PHASE_3
+TP53,347,1,EPRENETAPOPT,Cellular tumor antigen p53 stabiliser,PHASE_3
+PIK3CA,347,1,DACTOLISIB,Serine/threonine-protein kinase mTOR inhibitor,PHASE_3
+PIK3CA,347,1,PAXALISIB,PI3-kinase class I inhibitor,PHASE_2_3
+PIK3CA,347,1,PICTILISIB,PI3-kinase class I inhibitor,PHASE_2
+TP53,347,1,CENERSEN,p53 mRNA antisense inhibitor,PHASE_2
+PIK3CA,347,1,VOXTALISIB,Serine/threonine-protein kinase mTOR inhibitor,PHASE_2
+TP53,347,1,CENERSEN SODIUM,p53 mRNA antisense inhibitor,PHASE_2
+PIK3CA,347,1,SAMOTOLISIB,Serine/threonine-protein kinase mTOR inhibitor,PHASE_2
+PIK3CA,347,1,PILARALISIB,PI3-kinase class I inhibitor,PHASE_2
+PIK3CA,347,1,APITOLISIB,Serine/threonine-protein kinase mTOR inhibitor,PHASE_2
+TP53,347,1,SIREMADLIN,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,PHASE_2
+PIK3CA,347,1,PF-04691502,Serine/threonine-protein kinase mTOR inhibitor,PHASE_2
+PIK3CA,347,1,SF-1126,PI3-kinase class I inhibitor,PHASE_2
+PIK3CA,347,1,SONOLISIB,PI3-kinase class I inhibitor,PHASE_2
+TP53,347,1,ALRIZOMADLIN,Tumour suppressor p53/oncoprotein Mdm2 inhibitor,PHASE_2
+PIK3CA,347,1,FIMEPINOSTAT,PI3-kinase p110-delta subunit inhibitor,PHASE_2
+PIK3CA,347,1,SERABELISIB,PI3-kinase p110-alpha subunit inhibitor,PHASE_2
+PIK3CA,347,1,IZORLISIB,PI3-kinase class I inhibitor,PHASE_1_2
+PIK3CA,347,1,BGT-226,Serine/threonine-protein kinase mTOR inhibitor,PHASE_1_2
+PIK3CA,347,1,DS-7423,Serine/threonine-protein kinase mTOR inhibitor,PHASE_1
+PIK3CA,347,1,VS-5584,Serine/threonine-protein kinase mTOR inhibitor,PHASE_1
+PIK3CA,347,1,WX-037,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,GSK-1059615,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,OMIPALISIB,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,BAY-1082439,PI3-kinase p110-beta subunit inhibitor,PHASE_1
+PIK3CA,347,1,ZSTK-474,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,RECILISIB,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,PKI-179,Serine/threonine-protein kinase mTOR inhibitor,PHASE_1
+PIK3CA,347,1,PANULISIB,PI3-kinase class I inhibitor,PHASE_1
+PIK3CA,347,1,COPANLISIB HYDROCHLORIDE,PI3-kinase p110-alpha subunit inhibitor,APPROVAL
+PIK3CA,347,1,INAVOLISIB,PI3-kinase p110-alpha subunit inhibitor,APPROVAL
+PIK3CA,347,1,COPANLISIB,PI3-kinase p110-alpha subunit inhibitor,APPROVAL
+MUC16,109,6,IGOVOMAB,Mucin-16 binding agent,WITHDRAWAL
+MUC16,109,6,OREGOVOMAB,Mucin-16 other,PHASE_3
+MUC16,109,6,ABAGOVOMAB,Mucin-16 other,PHASE_2_3
+MUC16,109,6,SOFITUZUMAB VEDOTIN,Mucin-16 binding agent,PHASE_1
+MAP3K1,89,8,E-6201,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor,PHASE_2

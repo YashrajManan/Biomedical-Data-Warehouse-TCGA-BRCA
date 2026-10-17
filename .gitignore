@@ -1,0 +1,19 @@
+# Private, git-ignored per this portfolio's convention -- learning files, not published
+WORKFLOW.md
+PROJECT_NARRATIVE.md
+INTERVIEW_QA.md
+INTERPRETATION.md
+
+# Blank/hint teaching scaffold -- the clean, filled-in notebook is what gets pushed
+biomedical_data_warehouse_tcga_brca.ipynb
+
+# Local DuckDB database file -- reproducible by re-running the notebook, not dumped into the repo
+warehouse.duckdb
+
+# Local uploaded practice copy, kept locally only
+biomedical_data_warehouse_tcga_brca_ran_tried_practiced_hands_on_effort.ipynb
+
+# Standard
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
