@@ -81,17 +81,13 @@ Cox methods, deliberately out of scope for this SQL/warehouse-focused project.
 
 ## Learning through project
 
-Five real bugs shaped this build. cBioPortal's mutation endpoint needed `DETAILED`, not `SUMMARY`, projection
-to return a gene symbol at all. DuckDB's `con.register()` only exposes a DataFrame as a view — it does not run
-SQL, unlike `con.execute()`. Open Targets' real GraphQL schema had moved since this portfolio's earlier #24
-project used it (`Target.knownDrugs` no longer exists); rather than guess a replacement from disagreeing
-third-party sources, the real current schema was walked directly via six rounds of GraphQL introspection
-before writing the final query. cBioPortal's clinical-data endpoint silently caps a single page at a fixed
-size — an unpaginated first attempt returned exactly 10,000 rows covering only 266 of the real 1084 patients,
-with no error, caught only by cross-checking a computed total against the known real cohort size. And a
-capitalization mismatch between a SQL alias (`gene_Symbol`) and a pandas column reference (`gene_symbol`)
-produced a real `KeyError`, resolved by printing and comparing the actual column names rather than assuming
-they matched.
+When a third-party API's documentation and its actual live behavior disagree, the resolution is always to
+query the real endpoint directly and read what it actually returns — walking a GraphQL schema via its own
+introspection query, checking a REST response's real field names and real row count against an
+independently known total — rather than trust documentation, an example query, or a disagreeing secondary
+source. A silent pagination cap or a silent key-name mismatch never raises an error on its own; both only
+surface when a downstream total or join is cross-checked against a number known to be correct from another
+angle, which is why that cross-check has to be built into the pipeline rather than treated as optional.
 
 ## Caveats
 
